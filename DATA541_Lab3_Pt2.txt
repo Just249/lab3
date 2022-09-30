@@ -1,0 +1,57 @@
+Q1
+
+1.Clone your Lab 3 repository to your local machine (1 mark)
+	git clone https://github.com/Just249/lab3.git
+
+2.Navigate into the cloned repository folder
+	cd data-541-lab-3-Just249/
+
+3.Create a new Git branch called Markdown (1 mark)
+	git branch Markdown
+
+4.Use checkout to move to the Markdown branch. You may use the -b flag to create and checkout a branch at the same time. (1 mark)
+	git checkout Markdown
+
+5.Check the status of the current repository and confirm you are on the Markdown branch (1 mark)
+	git status
+
+6.Add and commit your lab3_q1.md and lab3_q2.md files to the current branch. (1 mark)
+	git add lab3_q1.md
+	git add lab3_q2.md
+	git commit -m "add lab3_q1 & lab3_q2"
+
+7.Use the push command with the following flags -u origin Markdown to push the Markdown branch to GitHub. (1 mark)
+	git push -u origin Markdown
+	
+	
+8.On GitHub, you should see the Markdown branch in the Branch dropdown:
+	yes
+
+Q2
+
+1.Use checkout to move back to the master branch of your Git repository. (1 mark)
+	git checkout main
+
+2.Merge your Markdown branch into your master branch. The syntax for the merge command is git merge branchName. (1 mark)
+	git merge Markdown
+
+3.Perform a push to push the merge up to GitHub.
+	git push origin main
+
+4.Delete your Markdown branch - now that it is merged, it is no longer necessary. (1 mark)
+	git branch -d Markdown	
+
+5.Use the git log function to print a short log of your actions. If the -oneline flag doesn't work, try using --pretty=oneline instead. Take a screenshot of the output. (1 mark)
+	git log --pretty=oneline
+
+	chanp@DESKTOP-45KRTKI:~/DATA541/Lab3/lab3$  git log --pretty=oneline
+	cc4a3bcd6e4179a7a78e731b378bc44c5155ca3e (HEAD -> main, origin/main, origin/Markdown, origin/HEAD) add lab3_q1 & lab3_q2
+	49d3841676d4867704809ef6761f2b0635ce825a Initial commit
+	chanp@DESKTOP-45KRTKI:~/DATA541/Lab3/lab3$
+
+6.Add and commit your text files with your commands and/or screenshot(s) to the master branch of your lab repo and push. Your lab repo master branch should now contain your Markdown files from Part 1 of this lab, plus your text files and screenshots from Part 2. Submit the link to your repo on Canvas.
+	git add .
+	git commit -m "Added Screenshots & txt"
+	git push
+
+
