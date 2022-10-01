@@ -22,12 +22,10 @@ Or, in pure Markdown, but losing the image sizing and border: \
 
 Click on the image to play the video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ofl9I4LsFh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
-
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ofl9I4LsFh8
+" target="_blank"><img src="http://img.youtube.com/vi/ofl9I4LsFh8/0.jpg"
+alt="Welcome to UBC's Okanagan campus" width="240" height="180" border="10" /></a>
 
 
 
