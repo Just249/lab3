@@ -25,7 +25,7 @@ Click on the image to play the video:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=ofl9I4LsFh8
 " target="_blank"><img src="http://img.youtube.com/vi/ofl9I4LsFh8/0.jpg"
-alt="Welcome to UBC's Okanagan campus" width="240" height="180" border="10" /></a>
+alt="Welcome to UBC's Okanagan campus" width="480" height="360" border="10" /></a>
 
 
 
